@@ -1,0 +1,35 @@
+databases:
+  active_db: "mysql" #"mysql" "postgres"
+repositoryBd:
+  client: com.ism.Repositories.BD.ClientRepoBd
+  user: com.ism.Repositories.BD.UserRepoBd
+  article: com.ism.Repositories.BD.ArticleRepoBd
+  demande: com.ism.Repositories.BD.DemandeRepoBd
+  demandeArticle: com.ism.Repositories.BD.DemandeArticleRepoBd
+  dette: com.ism.Repositories.BD.DetteRepoBd
+  paiement: com.ism.Repositories.BD.PaiementRepoBd
+repositoryList:
+  client: com.ism.Repositories.list.ClientRepo
+  user: com.ism.Repositories.list.UserRepo
+  article: com.ism.Repositories.list.ArticleRepo
+  demande: com.ism.Repositories.list.DemandeRepo
+  demandeArticle: com.ism.Repositories.list.DemandeArticleRepo
+  dette: com.ism.Repositories.list.DetteRepo
+  role: com.ism.Repositories.list.RoleRepo
+  paiement: com.ism.Repositories.list.PaiementRepo
+service:
+  client: com.ism.Service.ClientService
+  user: com.ism.Service.UserService
+  article: com.ism.Service.ArticleService
+  demande: com.ism.Service.DemandeService
+  demandeArticle: com.ism.Service.DemandeArticleService
+  dette: com.ism.Service.DetteService
+  role: com.ism.Service.RoleService
+  paiement: com.ism.Service.PaiementService
+view:
+  client: com.ism.Views.ClientViews
+  user: com.ism.Views.UserViews
+  article: com.ism.Views.ArticleViews
+  demande: com.ism.Views.DemandeViews
+  dette: com.ism.Views.DetteViews
+  paiement: com.ism.Views.PaiementViews
